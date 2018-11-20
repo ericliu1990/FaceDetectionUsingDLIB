@@ -76,6 +76,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configuration.cs" />
     <Compile Include="FaceDetection.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +85,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Landmarks.cs" />
+    <Compile Include="Utils.cs" />
     <EmbeddedResource Include="FaceDetection.resx">
       <DependentUpon>FaceDetection.cs</DependentUpon>
     </EmbeddedResource>
